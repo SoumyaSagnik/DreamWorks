@@ -132,6 +132,7 @@ public class Main {
 			link = in.implementation();
 			jdbc();
 			closeDriver();
+			break;
 		default:
 			System.out.println("Wrong choice");
 		}

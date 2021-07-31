@@ -23,7 +23,4 @@ public class Amazon implements ISearches{
 		driver.findElement(By.id("twotabsearchtextbox")).sendKeys(search + Keys.ENTER);
 		return driver.getCurrentUrl();
 	}
-
-	
-
 }
